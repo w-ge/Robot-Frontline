@@ -63,7 +63,7 @@ class GamePanel extends JPanel implements KeyListener{
 			super.paintComponent(g);
 			
 			// Render level background
-			background = new ImageIcon("Images\\Level" + level + " Background.png");
+			background = new ImageIcon("Images//Level" + level + " Background.png");
 			g.drawImage(background.getImage(),0,0,null);
 			
 			// Display level 1, 2, 3, 4, 5, 6 objectives
@@ -689,8 +689,8 @@ class GamePanel extends JPanel implements KeyListener{
 		
 		// Display instructions for player when player presses "i"
 		if(key == KeyEvent.VK_I){
-			int instructions = JOptionPane.showConfirmDialog(null, "Use WASD to move. Press space to shoot. \n" + 
-					"Complete the objective on the top left corner and enter portals to move onto the next level. If you die, the level resets. \n" +
+			int instructions = JOptionPane.showConfirmDialog(null, "Use WASD to move. Press space to shoot. /n" + 
+					"Complete the objective on the top left corner and enter portals to move onto the next level. If you die, the level resets. /n" +
 					"You can cheat by pressing \"C\" in the game or \"N\" to go to the next level.", 
 					"How to Play", JOptionPane.CLOSED_OPTION);
 		}
@@ -795,7 +795,7 @@ class GamePanel extends JPanel implements KeyListener{
 			level++;
 			
 			// Read level file
-			BufferedReader br = new BufferedReader(new FileReader(new File("Maps\\Level"+level)));
+			BufferedReader br = new BufferedReader(new FileReader(new File("Maps//Level"+level)));
 			while((str = br.readLine() ) != null){
 				i++;
 				row = str.split(" ");
@@ -980,8 +980,8 @@ public class Game extends JFrame implements ActionListener{
 		
 		// Show instructions if player clicks for instructions
 		if(e.getSource() == b2){
-			int instructions = JOptionPane.showConfirmDialog(null, "Use WASD to move. Press space to shoot. \n" + 
-					"Complete the objective on the top left corner and enter portals to move onto the next level. If you die, the level resets. \n" +
+			int instructions = JOptionPane.showConfirmDialog(null, "Use WASD to move. Press space to shoot. /n" + 
+					"Complete the objective on the top left corner and enter portals to move onto the next level. If you die, the level resets. /n" +
 					"You can cheat by pressing \"C\" in the game or \"N\" to go to the next level.", 
 					"How to Play", JOptionPane.CLOSED_OPTION);
 		}
@@ -996,14 +996,14 @@ public class Game extends JFrame implements ActionListener{
 				Highscore hs;
 				
 				// Format
-				String scores = String.format("%6s%16s\n", "Name", "Redoes");
+				String scores = String.format("%6s%16s/n", "Name", "Redoes");
 				for(int i = 0; i < 5; i++) {
 					String line;
 					hs = ((Highscore) ois.readObject());
 					
 					// Display blanks if score is -1
 					if(hs.getScore()==-1) {
-						line = String.format((i+1)+". %s%18s\n", "-", "-");
+						line = String.format((i+1)+". %s%18s/n", "-", "-");
 					}
 					
 					// Display scores and names
@@ -1015,7 +1015,7 @@ public class Game extends JFrame implements ActionListener{
 						}
 						
 						// Cut off long name and display information
-						line = String.format((i+1)+". %-"+(25-len)+"."+len+"s%d\n", hs.getName(), hs.getScore());
+						line = String.format((i+1)+". %-"+(25-len)+"."+len+"s%d/n", hs.getName(), hs.getScore());
 						
 					}
 					scores += line;

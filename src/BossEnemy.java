@@ -5,15 +5,15 @@ import javax.swing.*;
 public class BossEnemy extends Enemy{
 	
 	// Images
-	private static final ImageIcon BOSS_ENEMY_0_0 = new ImageIcon("Images\\Boss0_0.png");
-	private static final ImageIcon BOSS_ENEMY_0_1 = new ImageIcon("Images\\Boss0_1.png");
-	private static final ImageIcon BOSS_ENEMY_0_2 = new ImageIcon("Images\\Boss0_2.png");
-	private static final ImageIcon BOSS_ENEMY_1_0 = new ImageIcon("Images\\Boss1_0.png");
-	private static final ImageIcon BOSS_ENEMY_1_1 = new ImageIcon("Images\\Boss1_1.png");
-	private static final ImageIcon BOSS_ENEMY_1_2 = new ImageIcon("Images\\Boss1_2.png");
-	private static final ImageIcon BOSS_ENEMY_2_0 = new ImageIcon("Images\\Boss2_0.png");
-	private static final ImageIcon BOSS_ENEMY_2_1 = new ImageIcon("Images\\Boss2_1.png");
-	private static final ImageIcon BOSS_ENEMY_2_2 = new ImageIcon("Images\\Boss2_2.png");
+	private static final ImageIcon BOSS_ENEMY_0_0 = new ImageIcon("Images//Boss0_0.png");
+	private static final ImageIcon BOSS_ENEMY_0_1 = new ImageIcon("Images//Boss0_1.png");
+	private static final ImageIcon BOSS_ENEMY_0_2 = new ImageIcon("Images//Boss0_2.png");
+	private static final ImageIcon BOSS_ENEMY_1_0 = new ImageIcon("Images//Boss1_0.png");
+	private static final ImageIcon BOSS_ENEMY_1_1 = new ImageIcon("Images//Boss1_1.png");
+	private static final ImageIcon BOSS_ENEMY_1_2 = new ImageIcon("Images//Boss1_2.png");
+	private static final ImageIcon BOSS_ENEMY_2_0 = new ImageIcon("Images//Boss2_0.png");
+	private static final ImageIcon BOSS_ENEMY_2_1 = new ImageIcon("Images//Boss2_1.png");
+	private static final ImageIcon BOSS_ENEMY_2_2 = new ImageIcon("Images//Boss2_2.png");
 	private static final ImageIcon bossImages[][] = {{BOSS_ENEMY_0_0, BOSS_ENEMY_0_1, BOSS_ENEMY_0_2},
 													 {BOSS_ENEMY_1_0, BOSS_ENEMY_1_1,BOSS_ENEMY_1_2},
 													 {BOSS_ENEMY_2_0, BOSS_ENEMY_2_1,BOSS_ENEMY_2_2}};

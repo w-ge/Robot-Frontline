@@ -5,7 +5,7 @@ import javax.swing.ImageIcon;
 public class Boost extends Rectangle{
 	
 	// Image for the boost power-up
-	private static final ImageIcon BOOST_IMAGE= new ImageIcon("Images\\boost.png");
+	private static final ImageIcon BOOST_IMAGE= new ImageIcon("Images//boost.png");
 	
 	// Constructor for Boost
 	public Boost(int x, int y) {

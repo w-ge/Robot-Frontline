@@ -5,12 +5,12 @@ import javax.swing.ImageIcon;
 public class Enemy extends Player{
 	
 	// Images
-	private static final ImageIcon ENEMY_IMAGE_R= new ImageIcon("Images\\Rusher_Right.png");
-	private static final ImageIcon ENEMY_IMAGE_R2= new ImageIcon("Images\\Rusher_Right2.png");
-	private static final ImageIcon ENEMY_IMAGE_R3= new ImageIcon("Images\\Rusher_Right3.png");
-	private static final ImageIcon ENEMY_IMAGE_L= new ImageIcon("Images\\Rusher_Left.png");
-	private static final ImageIcon ENEMY_IMAGE_L2= new ImageIcon("Images\\Rusher_Left2.png");
-	private static final ImageIcon ENEMY_IMAGE_L3= new ImageIcon("Images\\Rusher_Left3.png");
+	private static final ImageIcon ENEMY_IMAGE_R= new ImageIcon("Images//Rusher_Right.png");
+	private static final ImageIcon ENEMY_IMAGE_R2= new ImageIcon("Images//Rusher_Right2.png");
+	private static final ImageIcon ENEMY_IMAGE_R3= new ImageIcon("Images//Rusher_Right3.png");
+	private static final ImageIcon ENEMY_IMAGE_L= new ImageIcon("Images//Rusher_Left.png");
+	private static final ImageIcon ENEMY_IMAGE_L2= new ImageIcon("Images//Rusher_Left2.png");
+	private static final ImageIcon ENEMY_IMAGE_L3= new ImageIcon("Images//Rusher_Left3.png");
 	private static ImageIcon ANIMATE_ENEMY[][] = {{ENEMY_IMAGE_L,ENEMY_IMAGE_L2,ENEMY_IMAGE_L,ENEMY_IMAGE_L3},{ENEMY_IMAGE_R,ENEMY_IMAGE_R2,ENEMY_IMAGE_R,ENEMY_IMAGE_R3}};
 	
 	// Attributes

@@ -5,22 +5,22 @@ import javax.swing.ImageIcon;
 public class Player extends Rectangle{
 	
 	// Images
-	private static final ImageIcon PLAYER_IMAGE_RIGHT= new ImageIcon("Images\\Player_Right.png");
-	private static final ImageIcon PLAYER_IMAGE_RIGHT2= new ImageIcon("Images\\Player_Right2.png");
-	private static final ImageIcon PLAYER_IMAGE_RIGHT3= new ImageIcon("Images\\Player_Right3.png");
-	private static final ImageIcon PLAYER_IMAGE_RIGHT4= new ImageIcon("Images\\Player_Right4.png");
-	private static final ImageIcon PLAYER_IMAGE_RIGHT5= new ImageIcon("Images\\Player_Right5.png");
-	private static final ImageIcon PLAYER_IMAGE_RIGHT6= new ImageIcon("Images\\Player_Right6.png");
-	private static final ImageIcon PLAYER_IMAGE_RIGHT7= new ImageIcon("Images\\Player_Right7.png");
-	private static final ImageIcon PLAYER_IMAGE_LEFT= new ImageIcon("Images\\Player_Left.png");
-	private static final ImageIcon PLAYER_IMAGE_LEFT2= new ImageIcon("Images\\Player_Left2.png");
-	private static final ImageIcon PLAYER_IMAGE_LEFT3= new ImageIcon("Images\\Player_Left3.png");
-	private static final ImageIcon PLAYER_IMAGE_LEFT4= new ImageIcon("Images\\Player_Left4.png");
-	private static final ImageIcon PLAYER_IMAGE_LEFT5= new ImageIcon("Images\\Player_Left5.png");
-	private static final ImageIcon PLAYER_IMAGE_LEFT6= new ImageIcon("Images\\Player_Left6.png");
-	private static final ImageIcon PLAYER_IMAGE_LEFT7= new ImageIcon("Images\\Player_Left7.png");
-	private static final ImageIcon PLAYER_IMAGE_JUMPR= new ImageIcon("Images\\Player_JumpR.png");
-	private static final ImageIcon PLAYER_IMAGE_JUMPL= new ImageIcon("Images\\Player_JumpL.png");
+	private static final ImageIcon PLAYER_IMAGE_RIGHT= new ImageIcon("Images//Player_Right.png");
+	private static final ImageIcon PLAYER_IMAGE_RIGHT2= new ImageIcon("Images//Player_Right2.png");
+	private static final ImageIcon PLAYER_IMAGE_RIGHT3= new ImageIcon("Images//Player_Right3.png");
+	private static final ImageIcon PLAYER_IMAGE_RIGHT4= new ImageIcon("Images//Player_Right4.png");
+	private static final ImageIcon PLAYER_IMAGE_RIGHT5= new ImageIcon("Images//Player_Right5.png");
+	private static final ImageIcon PLAYER_IMAGE_RIGHT6= new ImageIcon("Images//Player_Right6.png");
+	private static final ImageIcon PLAYER_IMAGE_RIGHT7= new ImageIcon("Images//Player_Right7.png");
+	private static final ImageIcon PLAYER_IMAGE_LEFT= new ImageIcon("Images//Player_Left.png");
+	private static final ImageIcon PLAYER_IMAGE_LEFT2= new ImageIcon("Images//Player_Left2.png");
+	private static final ImageIcon PLAYER_IMAGE_LEFT3= new ImageIcon("Images//Player_Left3.png");
+	private static final ImageIcon PLAYER_IMAGE_LEFT4= new ImageIcon("Images//Player_Left4.png");
+	private static final ImageIcon PLAYER_IMAGE_LEFT5= new ImageIcon("Images//Player_Left5.png");
+	private static final ImageIcon PLAYER_IMAGE_LEFT6= new ImageIcon("Images//Player_Left6.png");
+	private static final ImageIcon PLAYER_IMAGE_LEFT7= new ImageIcon("Images//Player_Left7.png");
+	private static final ImageIcon PLAYER_IMAGE_JUMPR= new ImageIcon("Images//Player_JumpR.png");
+	private static final ImageIcon PLAYER_IMAGE_JUMPL= new ImageIcon("Images//Player_JumpL.png");
 	private static final ImageIcon ANIMATE_PLAYER[][] = {{PLAYER_IMAGE_RIGHT,PLAYER_IMAGE_RIGHT2,PLAYER_IMAGE_RIGHT3,PLAYER_IMAGE_RIGHT4,PLAYER_IMAGE_RIGHT,PLAYER_IMAGE_RIGHT5,PLAYER_IMAGE_RIGHT6,PLAYER_IMAGE_RIGHT7},
 									  {PLAYER_IMAGE_LEFT,PLAYER_IMAGE_LEFT2,PLAYER_IMAGE_LEFT3,PLAYER_IMAGE_LEFT4,PLAYER_IMAGE_LEFT,PLAYER_IMAGE_LEFT5,PLAYER_IMAGE_LEFT6,PLAYER_IMAGE_LEFT7},
 									  {PLAYER_IMAGE_JUMPR},{PLAYER_IMAGE_JUMPL}};

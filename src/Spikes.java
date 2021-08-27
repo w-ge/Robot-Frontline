@@ -4,7 +4,7 @@ import javax.swing.ImageIcon;
 public class Spikes extends Rectangle{
 	
 	// Image
-	private static final ImageIcon SPIKE_IMAGE = new ImageIcon("Images\\spikes.png");
+	private static final ImageIcon SPIKE_IMAGE = new ImageIcon("Images//spikes.png");
 	
 	// Constructor to initialize location of portal
 	public Spikes(int x, int y){

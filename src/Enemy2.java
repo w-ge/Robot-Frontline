@@ -5,8 +5,8 @@ import javax.swing.ImageIcon;
 public class Enemy2 extends Enemy{
 	
 	// Images
-	private static final ImageIcon SHOOTER_IMAGE_R = new ImageIcon("Images\\Gunner_Right.png");
-	private static final ImageIcon SHOOTER_IMAGE_L = new ImageIcon("Images\\Gunner_Left.png");
+	private static final ImageIcon SHOOTER_IMAGE_R = new ImageIcon("Images//Gunner_Right.png");
+	private static final ImageIcon SHOOTER_IMAGE_L = new ImageIcon("Images//Gunner_Left.png");
 	private static final ImageIcon ANIMATE_ENEMY2[] = {SHOOTER_IMAGE_L,SHOOTER_IMAGE_R};
 	
 	// Constructor to initialize location and other attributes of shooter

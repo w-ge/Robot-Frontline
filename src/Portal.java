@@ -5,7 +5,7 @@ import javax.swing.ImageIcon;
 public class Portal extends Rectangle{
 	
 	// Image
-	private static final ImageIcon PORTAL_IMAGE = new ImageIcon("Images\\portal.png");
+	private static final ImageIcon PORTAL_IMAGE = new ImageIcon("Images//portal.png");
 	
 	// Constructor to initialize location of portal
 	public Portal(int x, int y){

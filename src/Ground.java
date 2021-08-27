@@ -5,7 +5,7 @@ import javax.swing.ImageIcon;
 public class Ground extends Rectangle{
 	
 	// Image
-	private static final ImageIcon GROUND_IMAGE = new ImageIcon("Images\\ground.png");
+	private static final ImageIcon GROUND_IMAGE = new ImageIcon("Images//ground.png");
 	
 	// Attributes
 	protected int vel;

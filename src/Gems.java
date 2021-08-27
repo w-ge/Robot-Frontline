@@ -5,7 +5,7 @@ import javax.swing.ImageIcon;
 public class Gems extends Rectangle{
 	
 	// Image
-	private static final ImageIcon GEM_IMAGE = new ImageIcon("Images\\Gem.png"); 
+	private static final ImageIcon GEM_IMAGE = new ImageIcon("Images//Gem.png"); 
 	
 	// Attributes
 	private static int nGems;
